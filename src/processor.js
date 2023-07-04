@@ -41,9 +41,6 @@ export class V3DViewer {
     console.log(yCord);
     console.log(yCord + document.getElementById("navbar").clientHeight);
     window.scrollBy({ top: yCord, left: xCord, behavior: "smooth" });
-    console.log(destArray);
-
-
   }
 }
 
