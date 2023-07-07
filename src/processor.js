@@ -291,6 +291,7 @@ function setUpPages(pdf, pages, zoom) {
   let pdfDiv = document.createElement("div");
   pdfDiv.id = "pdfDiv";
   document.body.appendChild(pdfDiv);
+
   for (let i = 1; i <= pages; i++) {
     let loadPage = pdf.getPage(i);
     loadPage.then(function (page) {
